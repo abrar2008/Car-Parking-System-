@@ -1,0 +1,83 @@
+.jumbotron {
+  position: relative;
+  /* background: #000 url("./bg.jpg") center center; */
+  background: #000 url("https://upload.wikimedia.org/wikipedia/commons/c/c7/Akatsuka_parking_area.jpg") center center;
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  overflow: hidden;
+  text-align: center;
+  display: table;
+}
+
+.header {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.layout-title {
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+
+.container-fluid {
+  color: #ffffff;
+}
+
+.layout-title h2 {
+  color: #f77037;
+  font-size: 60px;
+  font-weight: 700;
+  height: auto;
+  letter-spacing: 0;
+  line-height: 40px;
+  margin-bottom: 30px;
+  text-align: center;
+  width: 100%;
+}
+
+.card-body .card-button {
+  text-align: right;
+}
+
+.card-body .card-button button {
+  margin-top: 10px;
+  margin-left: 7px;
+}
+
+.footer {
+  width: 100%;
+  height: 100px;
+  color: #ffffff;
+  background-color: #000000;
+  line-height: 40px;
+  margin-top: 60px;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.footer h3 {
+  margin-top: 40px;
+  font-size: 14px;
+}
+
+.card {
+  margin-top: 30px;
+}
+
+.card img {
+  height: 200px;
+}
+
+.modal-dialog {
+  max-width: 700px;
+}
+
+.invalid-datetime {
+  display: block;
+  width: 100%;
+  margin-top: .25rem;
+  font-size: 80%;
+  color: #dc3545;
+}
